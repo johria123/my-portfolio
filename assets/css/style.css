@@ -1,0 +1,43 @@
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: lightblue;
+    color: white;
+
+
+
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+min-width: 400px;
+list-style: none;
+font-size: 25px;
+
+}
+
+footer li {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+:hover {
+    color: red;
+}
+    
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+
+}
