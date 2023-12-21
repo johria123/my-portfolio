@@ -1,23 +1,25 @@
-header {
 
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: lightblue;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background-color: pink;
     color: white;
-
-
-
+    border: solid;
+    border-radius: 5%;
+    align-items: center;
 }
 
 nav ul {
-display: flex;
-justify-content: space-between;
-min-width: 400px;
-list-style: none;
-font-size: 25px;
-
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    list-style: none;
+    font-size: 25px;
+    flex-direction: row;
+    position: relative;
 }
 
 footer li {
@@ -25,19 +27,171 @@ footer li {
     justify-content: space-between;
     min-width: 200px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 1%;
+    text-align: center;
+    margin-top: 5%;
     
 }
 
-:hover {
-    color: red;
+.card {
+    position: relative;
+    width:200px;
+    height:200px;
+    display: block;
 }
+
+.card img {
+    display: inline-block;
+    width: 25rem;
+    height: 15rem;
+    margin-left: 1%;
+}
+
+
+
+
+.top-text {
+    position: absolute;
+    top: 30%; 
+    left: 10%; 
+    transform: translate(-20%, -20%); 
+    background-color: lightblue; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: left;
+}
+
+footer 
+{
+
+    display: flex;
+    padding-bottom: 30%;
+    justify-content: center;
+    font-size: 25px;
+    display: list-item;
+
+}
+
+    footer ul {
+    font-display: large;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 5%;
+    display: inline;
+    font-size: 1rem;
+    text-align: center;
+    border: thick;
+     }
+
+ article h2 {
+    font-size: 3em;
+    padding-top: 5rem;
+    margin-top: -5%;
+
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 992) {
+    .card {
+        width: 50%;
+    }
+ }
+
+ header h1 {
+    padding-left: 1%;
+    font-size: 4rem
     
+    }
 
+ header img {
+    width: 15em;
+    height: 15rem;
+ }
 
+ nav a:hover {
+    background-color: red;
+    color: white
+    
+    
+    
+ }
+    
+ article p {
+    font-size: 1.5rem;
+ }
 
-img {
-    width: 150px;
-    height: 150px;
-
+ body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: gainsboro;
 }
+
+ head {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
+
+ section h3 {
+    padding-bottom: 10%;
+ }
+
+ nav {
+    padding-top: 1%;
+    align-items: center;
+    padding-right: 1%;
+ }
+
+ section img {
+    margin-top: 1%;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: solid;
+    border-radius: 5%;
+    border-width: thick;
+    
+    
+ }
+
+ div section :hover{
+    font-size: large;
+    margin-top: 1%;
+    border: thick;
+ }
+
+ #projects  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+ div h3 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: lightblue;
+    color: #fff;
+    border: solid
+    
+ }
